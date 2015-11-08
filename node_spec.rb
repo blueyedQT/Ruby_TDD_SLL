@@ -5,7 +5,7 @@ RSpec.describe Node do
 		@node = Node.new(1)
 	end
 
-	it "initializes with one argument to se the element attribute" do 
+	it "initializes with one argument to set the element attribute" do 
 		expect(@node.element).to eq(1)
 	end
 
